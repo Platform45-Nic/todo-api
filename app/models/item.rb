@@ -1,7 +1,7 @@
 class Item < ApplicationRecord
-  # model association
+  # Model association
   belongs_to :todo
 
-  # validation
+  # Validation
   validates_presence_of :name
 end

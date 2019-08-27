@@ -1,7 +1,10 @@
 class User < ApplicationRecord
-  # model association
-  has_many :todos
+  # Encrypt password
+  has_secure_password
 
-  # validations
+  # Model association
+  has_many :todos, foreign_key: :created_by
+
+  # Validations
   validates_presence_of :name, :email, :password_digest
 end
