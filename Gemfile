@@ -20,6 +20,7 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'bootstrap_form'
 gem 'bcrypt'
+gem 'jwt'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
