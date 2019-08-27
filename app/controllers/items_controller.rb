@@ -4,7 +4,7 @@ class ItemsController < ApplicationController
 
   # GET
   def index
-    json_response(@todo.item)
+    json_response(@todo.items)
   end
 
   # GET
