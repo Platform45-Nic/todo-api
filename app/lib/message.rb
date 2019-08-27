@@ -8,11 +8,11 @@ class Message
   end
 
   def self.invalid_token
-    'Invalid Token'
+    'Invalid token'
   end
 
   def self.missing_token
-    'Missing Token'
+    'Missing token'
   end
 
   def self.unauthorized
